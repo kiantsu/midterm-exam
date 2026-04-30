@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #ffffff;
+    font-family: helvetica;
+    text-decoration: none;
+}
+
+body{
+    background-color: gray;
+    background: linear-gradient(180deg, #3f195f 0%, #4f007c 50%);
+    overflow-y: auto;
+}
+
+.navbar{
+    width: 100%;
+    background-color: #121212;
+    padding: 20px 5%;
+    border-radius: 7px;
+    gap: 10px;
+    border: 1px solid purple;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    cursor: default;
+}
+
+.logo-image{
+    width: 4rem;
+}
+
+.home-btn{
+    background-color: purple;
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgb(52, 49, 49);
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+}
+
+.home-btn:hover{
+    transform: scale(0.9);
+    background-color: rgb(94, 1, 94);
+}
+
+.lists{
+    margin: 40px;
+}
+
+.artists{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.artist-image{
+    width: 8rem;
+    border-radius: 50%;
+    transition: transform 0.3s ease-in-out;
+}
+
+.artist-image:hover{
+    transform: scale(1.1);
+}
+
+.artist-name{
+    font-weight: bold;
+    font-size: 20px;
+    color: #ffffff;
+    transition: all 0.3s ease-in-out;
+}
+
+.artist-name:hover{
+    color: #cfcfcf;
+}
